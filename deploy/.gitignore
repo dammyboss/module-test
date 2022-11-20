@@ -1,0 +1,23 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+*.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+
+# logs
+*.log
+
+# Directories
+.terraform/
+.vagrant/
+
+# Ignored Terraform files
+*gitignore*.tf
+
+# Ignore Mac .DS_Store files
+.DS_Store
+
+*gitignore*.tf
